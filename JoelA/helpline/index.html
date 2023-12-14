@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>SOS of Countries</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <form name="frm1">
+        <br />
+        <center>
+          <span class="txt">Select a Place :</span>
+          <select name="country" onchange="contact_number()">
+            <option value="select">--SELECT--</option>
+            <option value="Bommanahalli">Bommanahalli</option>
+            <option value="Mahadevapura">Mahadevapura</option>
+            <option value="Byatarayanapura">Byatarayanapura</option>
+            <option value="Dasarahalli">Dasarahalli</option>
+            <option value="Mayor">Mayor</option>
+          </select>
+          <br /><br />
+
+          <font color="aquamarine" size="50">
+            <div class="contact">Contact Number</div>
+          </font>
+
+          <div class="cnum"><p id="capt"></p></div>
+        </center>
+      </form>
+    </div>
+  </body>
+</html>

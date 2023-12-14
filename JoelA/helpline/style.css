@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  /* background-image: url("rescue.gif"); */
+}
+
+/* header {
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+} */
+
+.helpline-box {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* select {
+  text-align: center;
+  padding-top: 10px;
+  background-color: #f8f8f8;
+} */
+
+p,
+font {
+  padding: 20px;
+}
+
+h3 {
+  padding-top: 20px;
+  text-align: center;
+}
+/* 
+.helpline-number {
+  font-size: 24px;
+  font-weight: bold;
+}
+.helpline-info {
+  font-size: 16px;
+  color: #888;
+} */
+
+.txt {
+  padding: 15px;
+  font-size: 30px;
+  color: dodgerblue;
+  font-weight: bold;
+}
+
+select {
+  width: 200px;
+  height: 50px;
+  color: darkorange;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+.cnum {
+  width: 650px;
+  height: 140px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(49, 49, 226);
+  opacity: 0.75;
+  color: white;
+  font-size: 100px;
+  padding: 15px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+}
+
+.contact {
+  width: 900px;
+  height: 120px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: rgb(49, 49, 226);
+  opacity: 0.65;
+  color: white;
+  font-size: 100px;
+  border-top-right-radius: 35px;
+  border-top-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+
+p {
+  color: yellow;
+  font-weight: bold;
+  font-size: 50;
+}
+
+.container {
+  background-image: url("bgimg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 35px;
+  height: 100vh;
+  width: 100%;
+}
